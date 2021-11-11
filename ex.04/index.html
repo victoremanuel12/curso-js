@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    body{
+      font:normal 20pt arial
+    }
+  </style>
+</head>
+<body>
+ <script>
+   var nome= prompt("Qual é seu nome?")
+   document.write(` Olá <strong>${nome}</strong>! seu nome tem ${nome.length} letras.<br/>`)
+   document.write(`Seu nome em maiusculas é ${nome.toUpperCase()} <br/>`)
+   document.write(`seu nome em minusculas é ${nome.toLowerCase()}</br>`)
+   //Falando em numeros agora: para mudar o numero de casas decimais de um numero é so usar o comando variavel.tofixed(numero de casas decimais) a resposta sera dada com "." se quiser mudar para virgula é so usar a finção variavel.tofixed(numero de casas decimais).replace('.',',')
+   //---------------
+   //para escrever o simbolo de R$ em js deve se usar a função: variavel.tolocalestring('pt-br',{style:'currency''BRL'})
+   //variavel.tolocalestring('pt-br',{style:'currency''usd'}) para dolar
+   //variavel.tolocalestring('pt-br',{style:'currency''eur'})para euro
+
+
+ </script> 
+</body>
+</html>
