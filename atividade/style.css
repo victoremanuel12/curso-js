@@ -1,0 +1,37 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+header{
+  text-align: center;
+  padding: 15px;
+  width: 500px;
+  margin:auto;
+  
+}
+
+body{
+  background-color: cadetblue;
+  font: normal 15pt Arial;
+  
+}
+section{
+  background-color: white;
+  border-radius: 10px;
+  padding: 15px;
+  width: 500px;
+  height: 400px;
+  margin:auto;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.352); 
+}
+div{
+  text-align: center;
+  padding: 3px;
+}
+
+
+footer{
+  text-align: center;
+  color: white;
+  margin-top: 10px;
+}
