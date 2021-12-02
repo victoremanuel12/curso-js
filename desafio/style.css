@@ -1,0 +1,31 @@
+
+header{
+  text-align: center;
+  color:white;
+  
+}
+body{
+  background-color: gray;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ 
+}
+section{
+  background-color: white;
+  height: 400px;
+  width: 450px;
+  margin: auto;
+  border-radius: 15px;
+  padding: 10px;
+  box-shadow:2px 2px 10px rgba(0, 0, 0, 0.598)
+}
+select{
+  width: 150px;
+  margin: 15px 10px 0px ;
+}
+#finalizar{
+  margin: 0px 10px;
+}
+footer{
+  text-align: center;
+  color: black;
+}
